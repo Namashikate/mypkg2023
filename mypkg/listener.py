@@ -21,7 +21,7 @@ def main():
             except:
                 node.get_logger().info('呼び出し失敗')
             else:
-                node.get_logger().info("age: {}".format(response.age))
+                node.get_logger().info("age: {}".format(responce.age))
 
             break
 
